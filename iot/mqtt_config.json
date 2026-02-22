@@ -1,0 +1,6 @@
+{
+  "broker": "your-endpoint.iot.region.amazonaws.com",
+  "port": 8883,
+  "topic": "iot/sensor/data",
+  "qos": 1
+}
