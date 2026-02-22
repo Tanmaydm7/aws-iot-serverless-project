@@ -156,9 +156,6 @@ CloudWatch monitoring and alert configuration
 
 Secure cloud project version control using GitHub
 
-👤 Author
-
-Tanmay Meshram
 AWS IoT & Serverless Cloud Project
 
 📝 License
