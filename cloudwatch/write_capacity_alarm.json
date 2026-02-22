@@ -1,0 +1,19 @@
+{
+  "AlarmName": "DynamoDBWriteCapacityAlarm",
+  "MetricName": "ConsumedWriteCapacityUnits",
+  "Namespace": "AWS/DynamoDB",
+  "Statistic": "Sum",
+  "Period": 60,
+  "EvaluationPeriods": 1,
+  "Threshold": 1,
+  "ComparisonOperator": "GreaterThanThreshold",
+  "AlarmActions": [
+    "arn:aws:sns:region:account-id:AlarmTopic"
+  ],
+  "Dimensions": [
+    {
+      "Name": "TableName",
+      "Value": "IoTDeviceData"
+    }
+  ]
+}
